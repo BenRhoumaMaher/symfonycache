@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cache PSR-6</title>
+	</head>
+	<body>
+		<div>
+			Demo String:
+			{{ nameValue }}
+		</div>
+		<div>
+			Demo Array:
+			<ul>
+				{% for personValues in personValue %}
+					<li>{{ personValues }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div>
+			Cache Item Expired:
+			{{ foo }}
+		</div>
+	</body>
+</html>
